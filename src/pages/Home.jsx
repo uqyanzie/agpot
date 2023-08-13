@@ -1,4 +1,3 @@
-import React from "react";
 import Navbar from "../components/navbar/Navbar";
 import "../components/hero/Hero.css";
 import Carousel from "../components/Carousel";
@@ -13,8 +12,8 @@ export default function Home() {
         <div className="w-full h-screen z-50 text-white flex justify-between items-center px-10">
             <div className="w-auto flex flex-col gap-3 text-center sm:text-left">
                 <h3 className="text-3xl sm:text-5xl font-bold mb-5">Smart Environment Monitoring System</h3>
-                <h4 className="text-xl sm:text-2xl">"Harness the Power of IOT System to Transform Your Farming Experience"</h4>
-                <h3 className="text-2xl sm:text-4xl font-bold mt-10">Try the <span class="text-accent">Demo</span> Now!</h3>
+                <h4 className="text-xl sm:text-2xl">Harness the Power of IOT System to Transform Your Farming Experience</h4>
+                <h3 className="text-2xl sm:text-4xl font-bold mt-10">Try the <span className="text-accent">Demo</span> Now!</h3>
             </div>
         </div>
 

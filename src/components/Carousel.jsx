@@ -1,4 +1,3 @@
-import React from 'react';
 import TalentCard from './TalentCard';
 
 const talents = [
@@ -45,7 +44,7 @@ const Carousel = () => {
             {
                 talents.map((talent) => {
                     return (
-                        <div className="carousel-item shadow-xl rounded-xl">
+                        <div key={talent.id} id={talent.id} className="carousel-item shadow-xl rounded-xl">
                             <TalentCard talent={talent} />
                         </div> 
                     )
