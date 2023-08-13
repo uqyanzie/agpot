@@ -5,11 +5,7 @@ import react from '@vitejs/plugin-react-swc'
 export default defineConfig(({ command }) => {
   const config = {
     plugins: [react()],
-    base: '/',
-  }
-
-  if (command !== 'serve') {
-    config.base = '/agpot/'
+    base: '/agpot',
   }
 
   return config
